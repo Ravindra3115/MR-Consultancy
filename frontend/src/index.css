@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Custom global overrides (optional) */
+@layer base {
+  html {
+    scroll-behavior: smooth; /* Makes the "Explore Services" button scroll smoothly */
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
